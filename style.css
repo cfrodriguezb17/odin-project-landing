@@ -1,0 +1,64 @@
+:root {
+  --dark-background: #1f2937;
+  --main-logo-text: #f9faf8;
+  --button-color: #3882f6;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+button {
+  background-color: #3882f6;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+.first-section {
+  background-color: var(--dark-background);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.header, .hero {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 25px;
+}
+.header ul li a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.logo {
+  margin: 0;
+  font-size: 24px;
+  color: var(--main-logo-text);
+}
+.hero {
+  display: flex;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--main-logo-text);
+}
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.container-img {
+  width: 600px;
+  height: 300px;
+  background-color: #e5e7eb;
+}
