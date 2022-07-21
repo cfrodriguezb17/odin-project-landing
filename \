@@ -99,7 +99,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
 }
 .quote blockquote {
     font-size: 36px;
@@ -107,7 +106,6 @@ button {
     font-weight: 300;
     color: #1f2937;
     max-width: 800px;
-    margin: 100px 0;
 }
 .quote figcaption {
     text-align: right;
@@ -116,43 +114,4 @@ button {
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
-}
-.container-call {
-    max-width: 1000px;
-    margin: 100px auto;
-    background-color: #3b82f6;
-    border: 10px solid #3b82f6;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.container-call .text-call {
-    margin-left: 100px;
-    color: #fff;
-    padding: 50px 0;
-}
-.text-call h4 {
-    font-size: 18px;
-    margin: 0;
-}
-.text-call p {
-    margin: 0;
-}
-.container-call button {
-    border: 2px solid #fff;
-}
-.container-button {
-    margin-right: 100px;
-}
-.footer {
-    background-color: #1f2937;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer p {
-    margin: 0;
-    color: #fff;
 }
